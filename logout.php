@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	unset($_SESSION["name"]);
+	unset($_SESSION["pwd"]);
+	unset($_SESSION["status"]);
+?>
+<script>
+window.location.href="index.php";
+</script>
